@@ -1,10 +1,5 @@
 <?php
 
-// ==========================================================
-//  Copyright Reserved Wael Wael Abo Hamza (Course Ecommerce)
-// ==========================================================
-
-// date_default_timezone_set("Asia/Damascus");
 
 define("MB", 1048576);
 
@@ -205,7 +200,7 @@ function result($count)
 
 function sendEmail($to, $title, $body)
 {
-    $header = "From: support@waelabohamza.com " . "\n" . "CC: waeleagle1243@gmail.com";
+    $header = "From: support@yaman.com " . "\n" . "CC: yamanturkmen@gmail.com";
     mail($to, $title, $body, $header);
 }
 
